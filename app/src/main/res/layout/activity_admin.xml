@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".admin">
+
+        <Button
+            android:id="@+id/aUdemote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1090dp"
+            android:layout_marginEnd="150dp"
+            android:background="@drawable/button1"
+            android:fontFamily="cursive"
+            android:text="Demote"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:backgroundTint="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/aUpromote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1090dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/button1"
+            android:fontFamily="cursive"
+            android:text="Promote"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/aUSpinner"
+            android:layout_width="335dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="954dp"
+            android:layout_marginEnd="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ausername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1014dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1032dp"
+            android:layout_marginEnd="268dp"
+            android:fontFamily="cursive"
+            android:text="User Name :"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="902dp"
+            android:layout_marginEnd="72dp"
+            android:fontFamily="cursive"
+            android:text="Change Users to constructors"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:fontFamily="cursive"
+            android:background="@color/teal_200"
+            android:text="     Admin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/aViewUsers"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="View Users"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/aRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/aBRoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aRoom" />
+
+        <EditText
+            android:id="@+id/aTile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aBRoom" />
+
+        <EditText
+            android:id="@+id/aCement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aTile" />
+
+        <EditText
+            android:id="@+id/aCarpet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aCement" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="292dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="cursive"
+            android:text="Room"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/aRoom"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="cursive"
+            android:text="Bathroom"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/aBRoom"
+            app:layout_constraintTop_toBottomOf="@id/textView24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="cursive"
+            android:text="Tile"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/aTile"
+            app:layout_constraintTop_toBottomOf="@id/textView25" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="cursive"
+            android:text="Cement"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/aCement"
+            app:layout_constraintTop_toBottomOf="@id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="52dp"
+            android:fontFamily="cursive"
+            android:text="Carpet"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/aCarpet"
+            app:layout_constraintTop_toBottomOf="@id/textView27" />
+
+        <Button
+            android:id="@+id/aUpdatePrices"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="Update Prices"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/aViewFeedbacks"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="View Feedbacks"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aUpdatePrices" />
+
+        <Button
+            android:id="@+id/aIncome"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="View Income"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aViewFeedbacks" />
+
+        <Button
+            android:id="@+id/aProfit"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="View Profit"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aIncome" />
+
+        <EditText
+            android:id="@+id/aChnUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:layout_marginEnd="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="New Username"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aProfit" />
+
+        <EditText
+            android:id="@+id/aChnPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="100dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="New Password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aChnUser" />
+
+        <Button
+            android:id="@+id/aCngAdmin"
+            android:layout_width="253dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="76dp"
+            android:paddingLeft="1dp"
+            android:paddingTop="1dp"
+            android:paddingRight="1dp"
+            android:paddingBottom="1dp"
+            android:text="Change Account"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:fontFamily="cursive"
+            android:background="@drawable/button1"
+            app:backgroundTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/aChnPass" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

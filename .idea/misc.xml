@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/drawable/add_image.xml" value="0.188" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/drawable/button1.xml" value="0.187" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_cleaner.xml" value="0.13333333333333333" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_cunstructor.xml" value="0.165625" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/layout/activity_user.xml" value="0.1" />
+        <entry key="..\:/PROJECTS/ANDROID/cleanhelper/app/src/main/res/mipmap-anydpi-v26/appIcon.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

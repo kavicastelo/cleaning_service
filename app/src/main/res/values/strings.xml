@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Clean Helper</string>
+
+    <string-array name="floorType">
+        <item>Tile</item>
+        <item>Cement</item>
+        <item>Carpet</item>
+    </string-array>
+
+    <string name="about">Welcome to our latest service. We are introducing this service to make it easier for you to do the house cleaning that you miss with your busy schedule. We will allow you to use a date and time that is convenient for you. Our professional staff will clean your house efficiently and attractively. The service will be provided to you with free downloadable software at the most convenient rates. Login below to use the services</string>
+</resources>
